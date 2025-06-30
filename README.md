@@ -37,6 +37,15 @@ source fish/pod_node_labels.fish
 # Or add to your Fish config
 echo "source "(pwd)"/fish/pod_node_labels.fish" >> ~/.config/fish/config.fish
 ```
+### Bash Completion
+```bash
+# Enable completion in your current session
+source bash/pod_node_labels_completion.bash
+
+# Or add to your ~/.bashrc for automatic loading
+echo "source $(pwd)/bash/pod_node_labels_completion.bash" >> ~/.bashrc
+```
+
 
 ## Available Functions
 
